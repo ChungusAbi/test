@@ -17,7 +17,7 @@ else if(soilMoistureValue > (WaterValue + intervals) && soilMoistureValue < (Air
 }
 else if(soilMoistureValue < AirValue && soilMoistureValue > (AirValue - intervals))
 {
-  Serial.println("Dry");
+  Serial.println("Dry"); # hast hier einen fehlergemacht "nur am testen tobi nix ernstes"
 }
 delay(100);
 }
