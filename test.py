@@ -19,5 +19,5 @@ else if(soilMoistureValue < AirValue && soilMoistureValue > (AirValue - interval
 {
   Serial.println("Dry");
 }
-delay(100);
+delay(100); # yoah hast nen komma vergessen
 }
